@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">한걸음</string>
+    <string name="action_settings">설정</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >메인화면</item>
+        <item >운동시작</item>
+        <item >심박수 보기</item>
+        <item >기록</item>
+        <item >그룹</item>
+        <item >날씨</item>
+        <item >설정</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_note</item>
+        <item>@drawable/ic_group3</item>
+        <item>@drawable/ic_weather</item>
+        <item>@drawable/ic_setting</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+
+<!--밑에부터 블루투스 관련-->
+
+    <string name="service_name">BT Chat Service</string>
+
+    <!-- Settings -->
+    <string name="settings_background_service">백그라운드로 실행</string>
+    <string name="settings_iot_guide">\n앱에서 아래와 같은 형식의 메시지를 받으면 자동으로 지정된 서버로 HTTP request를 보내줍니다.</string>
+    <string name="settings_copyrights">\n\nFind more at http://www.hardcopyworld.com</string>
+
+    <!-- UI, Activity, Fragment -->
+    <string name="title_example">BT Chat</string>
+    <string name="title_ll_settings">설정</string>
+
+    <string name="ui_send">전송</string>
+
+    <!--  Bluetooth -->
+    <string name="bt_title">Bluetooth</string>
+
+    <string name="bt_state_init">초기화 중...</string>
+    <string name="bt_state_wait">대기중.. (우측 상단 아이콘으로 수동 검색)</string>
+    <string name="bt_state_connect">연결중...</string>
+    <string name="bt_state_connected">연결됨</string>
+    <string name="bt_state_error">error</string>
+
+    <string name="bt_not_enabled_leaving">블루투스가 꺼져 있습니다. 폰의 Settings 에서 블루투스를 활성화 하세요.</string>
+    <string name="bt_cmd_sending_error">전송 실패</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">장치 검색중...</string>
+    <string name="select_device">연결할 장치 선택</string>
+    <string name="none_paired">페어링 된 장치가 없습니다.</string>
+    <string name="none_found">검색된 장치가 없습니다.</string>
+    <string name="title_paired_devices">페어링 된 장치들</string>
+    <string name="title_other_devices">사용가능한 다른 장치들</string>
+    <string name="button_scan">장치 스캔</string>
+
+    <!-- Options Menu -->
+    <string name="connect">장치에 연결</string>
+    <string name="discoverable">Make\ndiscoverable</string>
+
+</resources>

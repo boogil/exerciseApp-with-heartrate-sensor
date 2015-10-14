@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/_2_starts">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="00:00:00"
+            android:textSize="190px"
+            android:shadowColor="#FF464646"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="0.5"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tvTime"
+            android:layout_gravity="center_horizontal|top"
+            />
+
+    </FrameLayout>
+<!---->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="심박수"
+                android:textSize="50px"
+                android:id="@+id/text_chat"
+                android:layout_gravity="center_horizontal"
+
+                android:shadowColor="#FF464646"
+                android:shadowDx="3.0"
+                android:shadowDy="3.0"
+                android:shadowRadius="0.5"
+                android:textColor="#FFFFFF"
+
+                android:layout_weight="1"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="-60dp"
+                android:paddingLeft="150dp" />
+
+            <ImageView
+                android:layout_width="237dp"
+                android:layout_height="248dp"
+                android:layout_marginTop="-80dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/_3_heartss"
+                android:layout_gravity="center_horizontal|top" />
+        </FrameLayout>
+
+        <!-- <TextView
+             android:id="@+id/text_chat"
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="1"
+             android:text="@string/title_example"
+             style="@style/AppTheme.FormText" />-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="350dp"
+                android:id="@+id/progressBar2"
+                android:layout_above="@+id/txtLabel"
+                android:progressDrawable="@drawable/custom_progress_drawable"
+                android:layout_gravity="center_horizontal"
+                android:progress="0"
+                android:max="100"
+                android:layout_height="83px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+            <Button
+                android:id="@+id/button_send"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:text="갱신"
+                style="@style/AppTheme.FormButton"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_chat"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+
+
+<!---->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibPause"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_weight="0.07"
+        android:background="@drawable/_2_tle3"
+
+        android:layout_marginTop="-10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibStop"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_weight="0.07"
+        android:background="@drawable/_2_tle3"
+
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

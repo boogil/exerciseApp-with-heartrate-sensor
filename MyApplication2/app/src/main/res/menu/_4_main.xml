@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 세팅 버튼 -->
+    <item
+        android:id="@+id/graph_btn"
+        android:icon="@drawable/graph48"
+        android:title="@string/action_settings"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/delete_btn"
+        android:icon="@drawable/_4_garbage1"
+        android:title="@string/action_settings"
+        android:showAsAction="always"/>
+
+
+
+</menu>

@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/AppTheme.FragmentContainer"
+    tools:context=".MainActivity$LLSettingsFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_marginTop="5dip">
+
+        <!-- Run in background -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top">
+            <TextView
+                android:id="@+id/text_background_service"
+                android:layout_width="0dip"
+                android:textSize="20dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_background_service"
+                style="@style/AppTheme.FormText" />
+            <CheckBox
+                android:id="@+id/check_background_service"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                style="@style/AppTheme.FormEditText" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="블루투스가 연결되었지만, 심박수가 화면에 나오지 않는문제가 발생할 경우\n심박수 보기 화면에서 '연결다시하기' 버튼을 클릭해 주세요."
+            style="@style/AppTheme.FormText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="운동중에 심박수 체크와 경고음은 설정창에서 설정하실 수 있습니다."
+                style="@style/AppTheme.FormText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="또 다른 문제점이 발생하거나 건의사항이 있을시에 밑의 주소로 메일을 보내시면 됩니다."
+                style="@style/AppTheme.FormText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="0dip"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue6"
+                android:textSize="20dp"
+                android:text="toy116@naver.com"
+                style="@style/AppTheme.FormText" />
+
+        </LinearLayout>
+        <!-- IoT update guide -->
+
+        <!-- Copyrights -->
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

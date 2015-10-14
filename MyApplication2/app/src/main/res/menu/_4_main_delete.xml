@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 세팅 버튼 -->
+    <item
+        android:id="@+id/ok_btn"
+        android:icon="@drawable/_4_garbage"
+        android:title="@string/action_settings"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cancel_btn"
+        android:icon="@drawable/_4_backbutton"
+        android:title="@string/action_settings"
+        android:showAsAction="always"/>
+
+
+</menu>
